@@ -48,5 +48,33 @@ The proposed framework follows an appearance-based recognition pipeline:
 
 
 ![Model Architecture](https://github.com/user-attachments/assets/d1c341ab-6146-4f40-ae53-6913611d4364)
-       ▼
-Identity Prediction
+
+
+## Results
+
+The proposed appearance-based face recognition model achieved strong recognition performance on both evaluated datasets.
+
+| Dataset | Recognition Accuracy |
+|---|---:|
+| **ORL** | **95.5%** |
+| **Face94** | **100%** |
+
+The proposed approach achieved **95.5% accuracy on the ORL dataset** and **100% accuracy on the Face94 dataset**.
+
+The results demonstrate the effectiveness of combining **Discrete Wavelet Transform (DWT)**, **Principal Component Analysis (PCA)**, and optimized image feature extraction for face recognition under challenging appearance variations.
+
+Compared with previous appearance-based approaches, the proposed method demonstrates improved recognition performance, highlighting the benefit of combining image preprocessing, feature extraction, dimensionality reduction, and appearance-based classification.
+
+## Technologies & Methods
+
+- MATLAB
+- Image Processing
+- Computer Vision
+- Face Recognition
+- Discrete Wavelet Transform (DWT)
+- Principal Component Analysis (PCA)
+- Feature Extraction
+- Dimensionality Reduction
+- Pattern Recognition
+- Appearance-Based Recognition
+       
